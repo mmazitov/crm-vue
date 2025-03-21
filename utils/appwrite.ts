@@ -1,4 +1,4 @@
-import { APP_WRITE_ID } from '@/app.constants.local';
+import { APP_WRITE_ID } from '@/app.constants';
 import { Account, Client, Databases, Storage } from 'appwrite';
 
 export const client = new Client();
