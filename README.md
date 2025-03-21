@@ -1,75 +1,48 @@
-# Nuxt Minimal Starter
+# CRM System
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 🎯 About
 
-## Setup
+This is a modern CRM system built with Nuxt.js, TailwindCSS, and Appwrite. The project is designed to provide a user-friendly interface for managing customer relationships and includes features like authentication, a Kanban board, and more.
 
-Make sure to install dependencies:
 
-```bash
-# npm
-npm install
+## 🛠 Tech Stack
 
-# pnpm
-pnpm install
+- **Nuxt.js:** Framework for Vue.js applications.
+- **TailwindCSS:** CSS framework for styling.
+- **Appwrite:** Backend services for authentication, database, and storage.
+- **Pinia:** State management library.
+- **Vee-Validate:** Form validation library.
+- **Vue Query:** Data-fetching and caching library.
+  
+## 🏁 Starting
 
-# yarn
-yarn install
+```
+Before starting 🏁, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
 
-# bun
-bun install
+# Clone this project
+$ git clone https://github.com/mmazitov/crm-vue
+
+# Access
+$ cd crm-vue
+
+# Install the dependencies using Yarn or npm:
+$ yarn install or $ npm install
+
+#To start the development server, run:
+$ npm run dev or $ yarn dev
+
+# To build the project for production, run:
+$ npm run build or $ yarn build
+
+# To preview the production build, run:
+$ npm run preview or $ yarn preview
+
+# Lint project
+$ npm lint or $ yarn lint
+
+
 ```
 
-## Development Server
+## 🤝 Contributing
 
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Contributions are welcome! Please feel free to submit a pull request or open an issue if you encounter any bugs or have feature requests.
